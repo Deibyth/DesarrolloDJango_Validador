@@ -122,7 +122,7 @@ ALLOWED_EXTENSIONS = ['pdf', 'txt', 'csv', 'xlsx']
 
 
 
-## 👤 Autor
+## Autor
 
-**Deibyth**
+**Deibith**
 - GitHub: [@Deibyth](https://github.com/Deibyth)
