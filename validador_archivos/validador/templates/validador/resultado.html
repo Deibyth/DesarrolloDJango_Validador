@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado</title>
+</head>
+<body>
+
+<h2>{{ mensaje }}</h2>
+
+{% if not archivo_valido %}
+    <ul>
+        {% for error in resultado %}
+            <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+<a href="/">Volver</a>
+
+</body>
+</html>

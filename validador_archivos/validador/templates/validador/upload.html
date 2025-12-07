@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subir archivo</title>
+</head>
+<body>
+    <h1>Carga una archivo para validar.</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Validar</button>
+    </form>
+</body>
+</html>
